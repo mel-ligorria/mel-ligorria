@@ -23,8 +23,8 @@ print ("El costo total de la mano de obra para pintar la pared es: ", costo_tota
  
  #Calculo_puntosdelequipo
 partidos_ganados = int(input("Ingrese la cantidad de partidos ganados: "))
-partidos_perdidos = int (input("Ingrese la cantidad de partidos perdidos: "))
-partidos_empatados = int (input("Ingrese la cantidad de partidos empatados: "))
+partidos_perdidos = int(input("Ingrese la cantidad de partidos perdidos: "))
+partidos_empatados = int(input("Ingrese la cantidad de partidos empatados: "))
 total_depuntos= (partidos_ganados * 3) + (partidos_empatados *1)
 
 print("El equipo acumuló", total_depuntos, "puntos en el campeonato.")
