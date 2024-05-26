@@ -41,3 +41,18 @@ familia = {
 }
 
 print(familia)     
+
+#Guardar en una tupla los primeros n números pares. El valor de n que lo ingrese el usuario (input). 
+n = int(input("Ingrese la cantidad de números que desee almacenar en la estructura de datos llamada tupla: "))
+pares = []
+
+contador= 0
+numero= 0
+while contador < n:
+    if numero % 2 == 0:
+        pares.append(numero)
+        contador += 1
+    numero += 1
+pares_estructuradatostuplas = tuple (pares)
+
+print ("Los primeros", n, "números pares son:", pares_estructuradatostuplas)
