@@ -56,3 +56,4 @@ while contador < n:
 pares_estructuradatostuplas = tuple (pares)
 
 print ("Los primeros", n, "números pares son:", pares_estructuradatostuplas)
+
