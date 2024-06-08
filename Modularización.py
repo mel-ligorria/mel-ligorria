@@ -38,5 +38,5 @@ def listar_tareas():
     else:
         print("\nListado de Tareas:")
         for tarea in lista_tareas:
-        print(f"ID: {tarea['id']}, Descripción: {tarea['descripcion']}, Estado: {tarea['estado']}, Categoría: {tarea['categoria']}")
+            print(f"ID: {tarea['id']}, Descripción: {tarea['descripcion']}, Estado: {tarea['estado']}, Categoría: {tarea['categoria']}")
         
